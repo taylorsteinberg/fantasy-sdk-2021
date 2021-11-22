@@ -1,0 +1,55 @@
+WDIS Analysis, Chris Leibowitz League of Champs, Week 9
+
+Run at 2021-11-02 18:30:42.701178
+
+Recommended Starters:
+RB1: alvin-kamara
+RB2: joe-mixon
+RB/WR/TE: khalil-herbert
+WR1: jerry-jeudy
+WR2: jamarr-chase
+TE: tyler-higbee
+QB: jalen-hurts
+K: ryan-succop
+D/ST: lar-dst
+
+Detailed Projections and Win Probability
+                               mean     wp  wrong  regret   pts_mean   pts_std
+pos      player                                                               
+RB1      alvin-kamara     86.163580  0.786  0.319   0.027  16.902209  8.906167
+         khalil-herbert   79.305852  0.683  0.761   0.130  10.044481  6.991042
+         samaje-perine    74.997040  0.603  0.920   0.210   5.735669  4.427419
+         jamaal-williams  69.261371  0.517  1.000   0.296   0.000000  0.000000
+RB2      joe-mixon        86.163580  0.786  0.430   0.053  11.548857  7.722251
+         khalil-herbert   84.659204  0.761  0.570   0.078  10.044481  6.991042
+         samaje-perine    80.350392  0.706  1.000   0.133   5.735669  4.427419
+         jamaal-williams  74.614723  0.614  1.000   0.225   0.000000  0.000000
+RB/WR/TE khalil-herbert   88.967899  0.809  0.624   0.050  10.044481  6.991042
+         josh-jacobs      86.163580  0.786  0.809   0.073   7.240161  5.319121
+         tim-patrick      84.628125  0.762  0.898   0.097   5.704706  4.180205
+         robby-anderson   84.826119  0.759  0.885   0.100   5.902700  4.447964
+         samaje-perine    84.659088  0.756  0.878   0.103   5.735669  4.427419
+         rashod-bateman   84.096784  0.754  0.930   0.105   5.173366  3.830088
+         george-kittle    82.738804  0.748  0.976   0.111   3.815385  2.858496
+         jamaal-williams  78.923419  0.678  1.000   0.181   0.000000  0.000000
+WR1      jerry-jeudy      86.163580  0.786  0.557   0.027   7.330768  5.317888
+         robby-anderson   84.735512  0.767  0.691   0.046   5.902700  4.447964
+         tim-patrick      84.537518  0.764  1.000   0.049   5.704706  4.180205
+         rashod-bateman   84.006178  0.757  0.752   0.056   5.173366  3.830088
+WR2      jamarr-chase     86.163580  0.786  0.454   0.022  11.305069  7.508475
+         robby-anderson   80.761210  0.690  0.833   0.118   5.902700  4.447964
+         rashod-bateman   80.031876  0.686  0.873   0.122   5.173366  3.830088
+         tim-patrick      80.563216  0.681  0.840   0.127   5.704706  4.180205
+TE       tyler-higbee     86.163580  0.786  0.347   0.014   6.269438  4.826181
+         george-kittle    83.709526  0.759  0.653   0.041   3.815385  2.858496
+QB       jalen-hurts      86.163580  0.786  0.000   0.000  17.347034  8.073211
+         tom-brady        68.816546  0.521  1.000   0.265   0.000000  0.000000
+K        ryan-succop      86.163580  0.786  0.000   0.000   0.000000  0.000000
+D/ST     lar-dst          86.163580  0.786  0.000   0.000   8.220044  5.339501
+
+Not maximizing probability of winning.
+
+Start:
+['khalil-herbert: 10.04448086317266']
+Instead of:
+['josh-jacobs: 7.240161091191216']

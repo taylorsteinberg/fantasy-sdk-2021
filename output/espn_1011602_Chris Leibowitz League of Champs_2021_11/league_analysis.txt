@@ -1,0 +1,40 @@
+
+**********************************
+Matchup Projections, Week 11 - 2021
+**********************************
+
+   wp_a  wp_b  over_under  line            team_a             team_b
+0  0.00  1.00      203.14  -7.0  Brandon Goldberg          Jake Gans
+1  0.47  0.53      215.87  -0.5     Evan Zaransky    Michael Gardner
+2  0.00  1.00      211.22 -34.0      Andrew Cohen  Benjamin Weinberg
+3  0.11  0.89      155.01 -13.5     Michael Adler       Kyle axelrod
+4  0.98  0.02      222.31  21.0      robert coles   Taylor Steinberg
+5  1.00  0.00      215.00  54.5  adam tabatchnick        Aaron Tabak
+
+**********************************
+Team Projections, Week 11 - 2021
+**********************************
+
+                     mean   std      5%     25%     50%     75%     95% p_high  p_low
+owner_name                                                                           
+adam tabatchnick   134.82  0.00  134.82  134.82  134.82  134.82  134.82  93.1%   nan%
+Benjamin Weinberg  123.85  6.78  114.98  118.41  122.72  128.52  136.13   6.9%   nan%
+robert coles       121.78  0.00  121.78  121.78  121.78  121.78  121.78   nan%   nan%
+Michael Gardner    108.40  5.63  101.38  104.01  107.21  111.77  118.13   nan%   nan%
+Evan Zaransky      107.82  8.30   94.88  101.86  107.09  113.32  122.49   nan%   nan%
+Jake Gans          105.06  0.00  105.06  105.06  105.06  105.06  105.06   nan%   nan%
+Taylor Steinberg   100.54  9.59   85.33   93.79  100.53  106.96  116.67   nan%   0.2%
+Brandon Goldberg    98.08  0.00   98.08   98.08   98.08   98.08   98.08   nan%   nan%
+Andrew Cohen        88.50  0.00   88.50   88.50   88.50   88.50   88.50   nan%   0.1%
+Kyle axelrod        84.40  6.66   75.82   78.98   83.31   88.72   96.76   nan%   5.6%
+Aaron Tabak         80.67  8.63   67.88   74.27   80.18   86.16   95.56   nan%  18.7%
+Michael Adler       71.28  8.94   57.63   64.84   70.47   76.95   87.36   nan%  75.4%
+
+Lock of the week:
+adam tabatchnick over Aaron Tabak - Win Prob: 100.0%
+
+Matchup of the week:
+Evan Zaransky (0.47) vs Michael Gardner (0.53)
+
+Bust of the week:
+Michael Adler vs Kyle axelrod - Over/Under set at: 155.01

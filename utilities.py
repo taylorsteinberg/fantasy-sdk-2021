@@ -21,12 +21,12 @@ API_URL = 'https://api.sims.fantasymath.com'
 LICENSE_KEY = config['sdk']['LICENSE_KEY']
 OUTPUT_PATH = config['sdk']['OUTPUT_PATH']
 DB_PATH = config['sdk']['DB_PATH']
-
+WDIS_PATH = 'C:/Users/taylo/OneDrive/Documents/GitHub/fantasy-sdk-2021/projects/wdis'
 # league integration
-# yahoo
-YAHOO_FILE = config['yahoo']['FILE']
-YAHOO_KEY =  config['yahoo']['KEY']
-YAHOO_SECRET = config['yahoo']['SECRET']
+# yahoo - I commented this out
+# YAHOO_FILE = config['yahoo']['FILE']
+# YAHOO_KEY =  config['yahoo']['KEY']
+# YAHOO_SECRET = config['yahoo']['SECRET']
 
 # espn
 SWID = config['espn']['SWID']

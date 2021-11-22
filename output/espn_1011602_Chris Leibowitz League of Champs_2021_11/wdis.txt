@@ -1,0 +1,53 @@
+WDIS Analysis, Chris Leibowitz League of Champs, Week 11
+
+Run at 2021-11-22 15:01:32.961794
+
+Recommended Starters:
+RB1: joe-mixon
+RB2: rhamondre-stevenson
+TE: george-kittle
+WR1: jamarr-chase
+WR2: rashod-bateman
+QB: tom-brady
+K: greg-joseph
+RB/WR/TE: rhamondre-stevenson
+D/ST: tb-dst
+
+Detailed Projections and Win Probability
+                                    mean     wp  wrong  regret   pts_mean       pts_std
+pos      player                                                                        
+RB1      joe-mixon            100.544038  0.041  0.013   0.001  25.300000  4.514204e-13
+         rhamondre-stevenson   84.042501  0.002  0.987   0.040   8.798463  6.301120e+00
+         alvin-kamara          75.244038  0.000  1.000   0.042   0.000000  0.000000e+00
+RB2      rhamondre-stevenson  100.742501  0.083  0.565   0.015   8.798463  6.301120e+00
+         josh-jacobs          100.544038  0.041  0.435   0.057   8.600000  1.581749e-13
+         alvin-kamara          91.944038  0.001  1.000   0.097   0.000000  0.000000e+00
+TE       george-kittle        100.544038  0.041  0.000   0.000  11.400000  2.097150e-13
+         tyler-higbee          89.144038  0.001  1.000   0.040   0.000000  0.000000e+00
+WR1      jamarr-chase         100.544038  0.041  0.000   0.000  11.500000  0.000000e+00
+         jerry-jeudy           89.044038  0.001  1.000   0.040   0.000000  0.000000e+00
+         van-jefferson         89.044038  0.001  1.000   0.040   0.000000  0.000000e+00
+         sterling-shepard      89.044038  0.001  1.000   0.040   0.000000  0.000000e+00
+WR2      rashod-bateman       100.544038  0.041  0.000   0.000   4.400000  3.465629e-14
+         jerry-jeudy           96.144038  0.014  1.000   0.027   0.000000  0.000000e+00
+         van-jefferson         96.144038  0.014  1.000   0.027   0.000000  0.000000e+00
+         sterling-shepard      96.144038  0.014  1.000   0.027   0.000000  0.000000e+00
+QB       tom-brady            100.544038  0.041  0.476   0.025  20.398854  8.119142e+00
+         aaron-rodgers         99.384509  0.033  0.524   0.033  19.239325  7.956398e+00
+K        greg-joseph          100.544038  0.041  0.000   0.000  10.000000  0.000000e+00
+RB/WR/TE rhamondre-stevenson  108.842501  0.221  0.041   0.000   8.798463  6.301120e+00
+         zack-moss            100.544038  0.041  0.959   0.180   0.500000  0.000000e+00
+         jerry-jeudy          100.044038  0.036  1.000   0.185   0.000000  0.000000e+00
+         sterling-shepard     100.044038  0.036  1.000   0.185   0.000000  0.000000e+00
+         tyler-higbee         100.044038  0.036  1.000   0.185   0.000000  0.000000e+00
+         van-jefferson        100.044038  0.036  1.000   0.185   0.000000  0.000000e+00
+         alvin-kamara         100.044038  0.036  1.000   0.185   0.000000  0.000000e+00
+D/ST     tb-dst               100.544038  0.041  0.049   0.000   8.445184  5.487687e+00
+         lar-dst               92.098854  0.001  0.951   0.040   0.000000  0.000000e+00
+
+Not maximizing probability of winning.
+
+Start:
+['rhamondre-stevenson: 8.798462654608361']
+Instead of:
+['josh-jacobs: 8.60000000000016', 'zack-moss: 0.5']

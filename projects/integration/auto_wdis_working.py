@@ -1,4 +1,4 @@
-import hosts.fleaflicker as site
+import hosts.espn_taylor_final as site
 import hosts.db as db
 import datetime as dt
 import sqlite3
@@ -7,7 +7,7 @@ import pandas as pd
 from utilities import (LICENSE_KEY, generate_token, master_player_lookup,
                        get_sims, get_players, DB_PATH, OUTPUT_PATH)
 
-LEAGUE_ID = 316893
+LEAGUE_ID = 1011602
 WEEK = 2
 
 # open up our database connection
@@ -21,19 +21,19 @@ conn = sqlite3.connect(DB_PATH)
 # normally: run this - AFTER you've run ./hosts/league_setup.py w/ your league
 ###############################################################################
 
-# teams = db.read_league('teams', LEAGUE_ID, conn)
-# schedule = db.read_league('schedule', LEAGUE_ID, conn)
-# league = db.read_league('league', LEAGUE_ID, conn)
-# host = league.iloc[0]['host']
+teams = db.read_league('teams', LEAGUE_ID, conn)
+schedule = db.read_league('schedule', LEAGUE_ID, conn)
+league = db.read_league('league', LEAGUE_ID, conn)
+host = league.iloc[0]['host']
 
 ###############################################################################
 # but for this example, using outputs i've saved here
 ###############################################################################
 
-teams = pd.read_csv('./projects/integration/raw/wdis/teams.csv')
-schedule = pd.read_csv('./projects/integration/raw/wdis/schedule.csv')
-league = pd.read_csv('./projects/integration/raw/wdis/league.csv')
-host = league.iloc[0]['host']
+# teams = pd.read_csv('./projects/integration/raw/wdis/teams.csv')
+# schedule = pd.read_csv('./projects/integration/raw/wdis/schedule.csv')
+# league = pd.read_csv('./projects/integration/raw/wdis/league.csv')
+# host = league.iloc[0]['host']
 
 # get parameters from league DataFrame
 

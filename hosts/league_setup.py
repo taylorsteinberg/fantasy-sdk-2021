@@ -1,15 +1,15 @@
-import hosts.fleaflicker as site
+import hosts.espn_taylor_final as site
 from hosts.db import overwrite_league
 from pandas import DataFrame
 import sqlite3
 from utilities import DB_PATH
 
-LEAGUE_ID = 34958
-TEAM_ID = 217960
+LEAGUE_ID = 1011602
+TEAM_ID = 10
 
-LEAGUE_NAME = "Family League"
-HOST = 'fleaflicker'
-SCORING = {'qb': 'pass6', 'skill': 'ppr', 'dst': 'high'}
+LEAGUE_NAME = "Chris Leibowitz League of Champs"
+HOST = 'ESPN'
+SCORING = {'qb': 'pass4', 'skill': 'ppr0', 'dst': 'mfl'}
 
 # open up our database connection
 conn = sqlite3.connect(DB_PATH)
@@ -19,7 +19,7 @@ teams = site.get_teams_in_league(LEAGUE_ID)
 overwrite_league(teams, 'teams', conn, LEAGUE_ID)
 
 # schedule info
-schedule = site.get_league_schedule(LEAGUE_ID)
+schedule = site.get_league_schedule(LEAGUE_ID, 2021)
 overwrite_league(schedule, 'schedule', conn, LEAGUE_ID)
 
 # league info

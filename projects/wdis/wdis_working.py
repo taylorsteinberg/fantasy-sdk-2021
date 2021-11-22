@@ -218,7 +218,7 @@ player = 'sony-michel'
 df = pd.concat([sumstats(player) for player in wdis], axis=1)
 
 df = df.T
-
+df
 # now let's go through and add all our extra data to it
 # start with win prob
 wps = [win_prob(player) for player in wdis]

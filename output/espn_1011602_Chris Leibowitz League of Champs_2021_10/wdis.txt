@@ -1,0 +1,47 @@
+WDIS Analysis, Chris Leibowitz League of Champs, Week 10
+
+Run at 2021-11-09 15:15:50.999895
+
+Recommended Starters:
+RB1: alvin-kamara
+RB2: josh-jacobs
+TE: george-kittle
+WR1: jerry-jeudy
+WR2: rashod-bateman
+QB: tom-brady
+D/ST: lar-dst
+RB/WR/TE: van-jefferson
+K: mason-crosby
+
+Detailed Projections and Win Probability
+                               mean     wp  wrong  regret   pts_mean   pts_std
+pos      player                                                               
+RB1      alvin-kamara     87.545710  0.639  0.272   0.012  12.488547  7.925627
+         jamaal-williams  81.674696  0.553  0.728   0.098   6.617533  4.965815
+         samaje-perine    75.057163  0.444  1.000   0.207   0.000000  0.000000
+         joe-mixon        75.057163  0.444  1.000   0.207   0.000000  0.000000
+         khalil-herbert   75.057163  0.444  1.000   0.207   0.000000  0.000000
+RB2      josh-jacobs      87.545710  0.639  0.310   0.023  10.946124  7.399582
+         jamaal-williams  83.217120  0.576  0.690   0.086   6.617533  4.965815
+         samaje-perine    76.599586  0.474  1.000   0.188   0.000000  0.000000
+         joe-mixon        76.599586  0.474  1.000   0.188   0.000000  0.000000
+         khalil-herbert   76.599586  0.474  1.000   0.188   0.000000  0.000000
+TE       george-kittle    87.545710  0.639  0.366   0.021   7.672290  5.519670
+         tyler-higbee     85.199562  0.605  0.634   0.055   5.326142  3.961260
+WR1      jerry-jeudy      87.545710  0.639  0.000   0.000   7.519239  5.640541
+         jamarr-chase     80.026471  0.529  1.000   0.110   0.000000  0.000000
+WR2      rashod-bateman   87.545710  0.639  0.000   0.000   7.043878  5.324148
+         jamarr-chase     80.501832  0.532  1.000   0.107   0.000000  0.000000
+QB       tom-brady        87.545710  0.639  0.393   0.046  20.340211  8.163467
+         jalen-hurts      84.344879  0.576  0.607   0.109  17.139380  8.123150
+D/ST     lar-dst          87.545710  0.639  0.000   0.000   8.442753  5.555236
+RB/WR/TE van-jefferson    87.545710  0.639  0.641   0.048   6.347250  4.637634
+         jamaal-williams  87.815993  0.637  0.602   0.050   6.617533  4.965815
+         tyler-higbee     86.524602  0.629  0.757   0.058   5.326142  3.961260
+         samaje-perine    81.198460  0.541  1.000   0.146   0.000000  0.000000
+         joe-mixon        81.198460  0.541  1.000   0.146   0.000000  0.000000
+         khalil-herbert   81.198460  0.541  1.000   0.146   0.000000  0.000000
+         jamarr-chase     81.198460  0.541  1.000   0.146   0.000000  0.000000
+K        mason-crosby     87.545710  0.639  0.000   0.000   6.745420  5.313263
+
+Current starters maximize probability of winning.
