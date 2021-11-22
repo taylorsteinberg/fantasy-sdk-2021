@@ -1,4 +1,4 @@
-import hosts.fleaflicker as site
+import hosts.espn_taylor_final as site
 import hosts.db as db
 import sqlite3
 import pandas as pd
@@ -87,8 +87,8 @@ def photo_finish(df):
 
 if __name__ == '__main__':
     # set parameters here
-    LEAGUE_ID = 316893
-    WEEK = 1
+    LEAGUE_ID = 1011602
+    WEEK = 11
 
     # first: get league data from DB + roster data by connecting to site
     conn = sqlite3.connect(DB_PATH)
